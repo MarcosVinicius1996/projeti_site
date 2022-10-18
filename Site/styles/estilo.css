@@ -16,7 +16,7 @@
       /*Estilizando as listas */
     .menu ul {
     list-style: none;
-    position: absolute;
+    position: relative;
     }
    
    .menu ul li {
@@ -35,7 +35,7 @@
    
    .menu ul ul {
     position: absolute;
-    visibility: collapse;
+    visibility: hidden;
     }
    
    .menu ul li:hover ul {
