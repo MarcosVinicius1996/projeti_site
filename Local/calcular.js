@@ -1,8 +1,8 @@
 var gasolina, etanol, distancia, km;
 
 function divideBy(){
-    distancia= document.getElementByid("distancia").value;
-    km= document.getElementByid("quilometros").value;
+    distancia= parseFloat(frdados.txdistancia.value.replace(",","."));
+    km= parseFloat(frdados.txquilometros.value.replace(",","."));
     document.getElementById("result").innerHTML = distancia / km;
 }
 
