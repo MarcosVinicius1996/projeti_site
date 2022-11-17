@@ -1,4 +1,10 @@
-var gasolina, etanol;
+var gasolina, etanol, distancia, km;
+
+function divideBy(){
+    distancia= document.getElementByid("distancia").value;
+    km= document.getElementByid("quilometros").value;
+    document.getElementById("result").innerHTML = distancia / km;
+}
 
 function melhor(){
     etanol= parseFloat(frdados.txetanol.value.replace(",","."));
