@@ -1,4 +1,5 @@
-var gasolina, etanol, distancia, km;
+var gasolina, etanol, distancia, km, melhor, divideBy
+;
 
 function divideBy(){
     distancia= parseFloat(frdados.txdistancia.value.replace(",","."));
@@ -25,3 +26,4 @@ function limpar(){
     document.getElementById("imagem").src="imagens/normal.png";
     document.getElementById("imagem2").src="imagem2.png";
 }
+var melhor()
