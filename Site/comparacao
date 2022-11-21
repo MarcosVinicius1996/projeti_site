@@ -1,0 +1,22 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <Title>Comparação</Title>
+        <script src="calcular.js"></script>
+    </head>
+    <body>
+        <h1>Calcular Combustível</h1>
+        <img src="imagens/normal.png" id="imagem" width="350" height="200">
+        <form name="frdados">
+            <input type="text" name="txdistancia" size="20" placeholder="Quilometrod" autofocus>
+            <input type="text" name="txquilometros" size="20" placeholder="km/l">
+            <input type="button" value="Calcular" onclick="divideBy()">
+            <input type="text" span id="result" placeholder="Litros à gastar"><br>
+            <input type="text" name="txgasolina" size="10" placeholder="Gasolina" autofocus>
+            <input type="text" name="txetanol" size="10" placeholder="Etanol">
+            <input type="button" value="Calcular" onclick="melhor()">
+            <input type="reset" value="Limpar" onclick="limpar()">
+        </form>
+
+    </body>
+</html>
