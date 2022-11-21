@@ -3,20 +3,27 @@
         <meta charset="UTF-8">
         <Title>Comparação</Title>
         <script src="calcular.js"></script>
+        <script src="calculo1.js"></script>
     </head>
     <body>
         <h1>Calcular Combustível</h1>
+       
         <img src="imagens/normal.png" id="imagem" width="350" height="200">
+        <img src="imagens/boaviagem.png" id="imagem2" width="350" height="200"><br>
         <form name="frdados">
-            <input type="text" name="txdistancia" size="20" placeholder="Quilometrod" autofocus>
-            <input type="text" name="txquilometros" size="20" placeholder="km/l">
-            <input type="button" value="Calcular" onclick="divideBy()">
-            <input type="text" span id="result" placeholder="Litros à gastar"><br>
             <input type="text" name="txgasolina" size="10" placeholder="Gasolina" autofocus>
             <input type="text" name="txetanol" size="10" placeholder="Etanol">
             <input type="button" value="Calcular" onclick="melhor()">
-            <input type="reset" value="Limpar" onclick="limpar()">
+            <input type="reset" value="Limpar" onclick="limpar()"><br><br>
+            <input type="text" name="txdistancia" size="10" placeholder="Quilometros" autofocus>
+            <input type="text" name="txquilometros" size="10" placeholder="km/l">
+            <input type="button" value="Calcular" onclick="divideBy()">
+            <p>A quantidade de litros a ser gasto é: <span id = "result"></span></p>
         </form>
+        
+        
+        
+
 
     </body>
 </html>
