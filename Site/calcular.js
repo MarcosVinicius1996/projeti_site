@@ -11,14 +11,17 @@ function melhor(){
     gasolina= parseFloat(frdados.txgasolina.value.replace(",","."));
     if(etanol < 0.7*gasolina){
         document.getElementById("imagem").src="imagens/alcool.png";
+        document.getElementById("imagem2").src="imagem2.png";
 
     }
 
     else{
         document.getElementById("imagem").src="imagens/gasolina.png";
+        document.getElementById("imagem2").src="imagem2.png";
     }
 }
 
 function limpar(){
     document.getElementById("imagem").src="imagens/normal.png";
+    document.getElementById("imagem2").src="imagem2.png";
 }
